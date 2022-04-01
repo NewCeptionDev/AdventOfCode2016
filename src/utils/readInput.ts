@@ -31,5 +31,11 @@ export const readInputFromSpecialFile = (fileName: string) => {
 }
 
 export const readTestFile = () => {
-  return readInputFromSpecialFile("testInput.txt");
+  const file = getCallerFile()
+    .split(sep)
+    .slice(0, -1)
+    .concat("testInput.txt")
+    .join(sep)
+
+  return readFileSync(file).toString()
 }
