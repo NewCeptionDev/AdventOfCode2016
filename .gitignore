@@ -3,3 +3,4 @@ node_modules
 yarn.lock
 .idea/
 src/*/input.txt
+src/*/secondInput.txt
