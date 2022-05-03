@@ -11,7 +11,7 @@ git clone https://github.com/NewCeptionDev/AdventOfCode2016.git
 ```
 
 ```
-cd AdventOfCode2021
+cd AdventOfCode2016
 ```
 
 Install Dependencies:
@@ -22,7 +22,7 @@ npm i
 
 
 ## Run
-Add a ***input.txt*** file to the folder and copy your input to that file.<br>
+Add an ***input.txt*** file to the folder and copy your input to that file.<br>
 Afterwards start the program with
 ```
 npm start day<N>
